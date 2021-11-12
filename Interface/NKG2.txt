@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "Users\USER\Desktop\Installer\__main__.py", line 10, in <module>
+  File "c:\programdata\anaconda3\envs\pivh\lib\site-packages\PyInstaller\loader\pyimod03_importers.py", line 489, in exec_module
+  File "Users\USER\Desktop\Installer\CameraInterfaces.py", line 17, in <module>
+  File "c:\programdata\anaconda3\envs\pivh\lib\site-packages\PyInstaller\loader\pyimod03_importers.py", line 489, in exec_module
+  File "site-packages\cv2\__init__.py", line 3, in <module>
+ImportError: DLL load failed: ?????????
+[6504] Failed to execute script __main__
+
+
+
+Traceback (most recent call last):
+  File "Users\USER\Desktop\Installer\__main__.py", line 10, in <module>
+  File "c:\programdata\anaconda3\envs\pivh\lib\site-packages\PyInstaller\loader\pyimod03_importers.py", line 489, in exec_module
+  File "Users\USER\Desktop\Installer\CameraInterfaces.py", line 17, in <module>
+  File "C:\Users\User\Desktop\Installer\dist\__main__\cv2\__init__.py", line 3, in <module>
+    from .cv2 import *
+ImportError: DLL load failed: The specific module cant be found
+[8932] Failed to execute script __main__

@@ -1,0 +1,57 @@
+	self.minPixelStabilityCNT = self.ui.SBMinPS.value()
+        self.maxPixelStabilityCNT = self.ui.SBMaxPS.value()
+        self.useHistoryCNT = self.ui.CBHistory.isChecked()
+        self.isParallelCNT = self.ui.CBIsParallel.isChecked()
+        #BGK GMG
+        self.initializationFramesGMG = self.ui.SBInitialF.value()
+        self.decisionThresholdGMG = self.ui.DSBThreshold.value()
+        #BGK GSOC
+        self.nSamplesGSOC = self.ui.SBNSamples.value()
+        self.replaceRateGSOC = self.ui.DSBReplace.value()
+        self.propagationRateGSOC = self.ui.DSBPropagation.value()
+        self.hitsThresholdGSOC = self.ui.SBNThreshold.value()
+        self.alphaGSOC = self.ui.DSBalpha.value()
+        self.betaGSOC = self.ui.DSBBeta.value()
+        #BGK KNN
+        self.historyKNN = self.ui.SBHistory.value()
+        self.dist2ThresholdKNN = self.ui.DSBThreshold_2.value()
+        self.detectShadowsKNN  = self.ui.CBDShadowsKNN.isChecked()
+        #BKG LSBP
+        self.nSamplesLSBP = self.ui.SBNSamplesLSBP.value()
+        self.LSBPRadius = self.ui.SBLRadius.value()
+        self.TupperLSBP = self.ui.DSBTupper.value()
+        self.RscaleLSBP = self.ui.DSRScale.value()
+        self.LSBPthreshold = self.ui.DSBLThreshold.value()
+        self.minCountLSBP = self.ui.DSBPmCount.value()
+        #BKG MOG
+        self.historyMOG = self.ui.SBHistoryMOG.value()
+        self.nmixturesMOG = self.ui.SBMixtures.value()
+        self.backgroundRatioMOG = self.ui.DSBRatio.value()
+        self.noiseSigmaMOG = self.ui.SBNoise.value()
+        #BKG MOG2
+        self.historyMOG2 = self.ui.SBHistoryMOG2.value()
+        self.varThresholdMOG2 = self.ui.SBThresholdMOG2.value()
+        self.detectShadowsMOG2 = self.ui.CBDshadowsMOG2.isChecked()
+        #BKG RNB
+        self.alphaRNB = self.ui.DSBAlpha.value()
+        self.ThuRNB = self.ui.SBThu.value()
+        self.ThsRNB = self.ui.SBThs.value()
+        #BKG FZBL
+        self.alphaFZBL = self.ui.DSBAlphaFL.value()
+        self.ThsFZBL = self.ui.SBThSFL.value()
+        self.ThfsFZBL= self.ui.DSBThfsFL.value()
+        #BKG FZB
+        self.alphaFZB = self.ui.DSBAlphaFZB.value()
+        self.alphaMinFZB = self.ui.DSBAlphaFZB_2.value()
+        self.ThsFZB = self.ui.SBThSFZB.value()
+        self.ThfsFZB = self.ui.DSBThfsFZB.value()
+        #Image Img Subtractor
+        self.alphaSUB = self.ui.DSBAlphaI.value()
+        self.bethaSUB = self.ui.DSBBetaI.value()
+        self.constantSUB = self.ui.DSBConstant.value()
+        #Image Lapse
+        self.alphaLapse = self.ui.DSBAlphaL.value()
+        self.bethaLapse = self.ui.DSBBetaL.value()
+        self.constantLapse = self.ui.DSBConstantL.value()
+
+BackgroundSettings
